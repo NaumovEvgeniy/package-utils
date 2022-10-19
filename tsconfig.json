@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"outDir": "./dist",
+		"target": "es5",
+		"sourceMap": true,
+		"declaration": true,
+		"strict": true,
+		"paths": {
+			"~/*": ["./src/*"]
+		},
+		"moduleResolution": "node",
+		"types": ["mocha", "chai", "sinon", "node"],
+		"lib": ["es2016"]
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": ["src"],
+	"ts-node": {
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"name": "@clickon/package-utils",
+	"version": "1.0.17",
+	"scripts": {
+		"package:publish": "ts-node -r tsconfig-paths/register src/bin/package-publish/index.ts",
+		"build": "ts-node -r tsconfig-paths/register src/bin/package-build/index.ts"
+	},
+	"bin": {
+		"package-publish": "./__commonjs/bin/package-publish/index.js",
+		"package-build": "./__commonjs/bin/package-build/index.js"
+	},
+	"devDependencies": {
+		"@types/chai": "^4.3.3",
+		"@types/fs-extra": "^9.0.13",
+		"@types/lodash": "^4.14.184",
+		"@types/mocha": "^9.1.1",
+		"@types/node": "^18.7.15",
+		"@types/sinon": "^10.0.13",
+		"chai": "^4.3.6",
+		"mocha": "^10.0.0",
+		"sinon": "^14.0.0",
+		"ts-node": "^10.9.1",
+		"tsconfig-paths": "^4.1.0",
+		"typescript": "^4.7.4"
+	},
+	"dependencies": {
+		"@types/yargs": "^17.0.11",
+		"fs-extra": "^10.1.0",
+		"lodash": "^4.17.21",
+		"rxjs": "^7.5.6",
+		"tsc-alias": "^1.7.0",
+		"type-fest": "^2.19.0",
+		"yargs": "^17.5.1"
+	}
+}

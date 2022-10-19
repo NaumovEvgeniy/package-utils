@@ -1,0 +1,4 @@
+{
+    "main": "../../commonjs/2/2-1/index.js",
+    "module": "../../esnext/2/2-1/index.js"
+}
